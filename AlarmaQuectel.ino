@@ -13,7 +13,7 @@ int segundos=0; // Variable donde se guardaran los segundos
 
 int push1=0; //almacena el estado del botón
 
-char numero_cell[]="3127944354";//numero de telefono
+char numero_cell[]="312794xxxx";//numero de telefono
 char msg;
 char call;
 
