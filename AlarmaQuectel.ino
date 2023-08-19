@@ -66,7 +66,7 @@ Serial.println("AT+CNMI=2,2,0,0");
 delay(300);
 Serial.println("configuracion terminada");
 delay(300);
-Serial.println("sistema de alarma encendida by 3127944354");
+Serial.println("sistema de alarma encendida by 312794xxxx");
 delay(1000);
 
 }
