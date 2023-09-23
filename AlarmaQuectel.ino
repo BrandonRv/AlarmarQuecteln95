@@ -192,7 +192,7 @@ void sensor_movimiento()
     minutos=(now.minute(),DEC);
     segundos=(now.second(),DEC);
     
-     if (now.hour()== 7 && now.minute()== 00)
+     if (now.hour()== 7 && now.minute()== 00) /// esta es la hora por la mañana que se desactivara el sensor automaticamente sin necesida de enviar el mensaje de desactivacion
     {    
     digitalWrite(led,LOW);
     mensaje_apagado();//Funcion5
